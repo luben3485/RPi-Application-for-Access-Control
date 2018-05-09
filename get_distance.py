@@ -28,6 +28,17 @@ def get_distance():
 #    distance_in = distance_cm / 2.5
     return (distance_cm)
 
-#while True:
-#    print("cm=%f\tinches=%f" % get_distance())
-#    time.sleep(1)
+def get_distance_average():
+    d1 = get_distance()
+    time.sleep(0.1)
+    d2 = get_distance()
+    time.sleep(0.1)
+    d3 = get_distance()
+    time.sleep(0.1)
+    d = (d1 + d2 +d3 )/3
+    return d    
+'''
+while True:
+    print("cm=%f\t" % get_distance_average())
+    time.sleep(0.05)
+'''

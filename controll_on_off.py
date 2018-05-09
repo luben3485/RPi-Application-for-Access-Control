@@ -16,9 +16,7 @@ def unlock():
     GPIO.output(pin,GPIO.LOW)
     time.sleep(5)
     GPIO.output(pin,GPIO.HIGH)
-unlock()
     
-		
 
 
 
