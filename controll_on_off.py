@@ -12,11 +12,10 @@ if(int(c) == 0):
 	GPIO.output(pin,GPIO.LOW)
 '''
 def unlock():
-    GPIO.setup(pin,GPIO.OUT)
-    GPIO.output(pin,GPIO.LOW)
-    time.sleep(5)
-    GPIO.output(pin,GPIO.HIGH)
-    
+    GPIO.setup(11,GPIO.OUT)
+    GPIO.output(11,GPIO.LOW)
+    time.sleep(8)
+    GPIO.output(11,GPIO.HIGH)
 
 
 
